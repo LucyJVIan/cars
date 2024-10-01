@@ -1,0 +1,54 @@
+.groupAuth {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  box-sizing: border-box;
+}
+
+.loginForm {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.formGroup,
+.field {
+  width: 100%;
+}
+
+.formGroup {
+  position: relative;
+}
+
+.field {
+  box-sizing: border-box;
+  padding: 4px 6px;
+}
+
+.errorMessage {
+  position: absolute;
+  color: red;
+  font-size: 12px;
+}
+
+.btnPrimary {
+  padding: 6px;
+  text-align: left;
+  background-color: transparent;
+  border: 1px solid rgb(14, 159, 33);
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+
+  &:hover {
+    background-color: rgba(14, 159, 33, 0.4);
+  }
+}

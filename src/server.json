@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "image": "/images/Tesla Model S.jpg",
+    "brand": "Tesla",
+    "model": "Model S",
+    "color": "Red",
+    "price": 89999,
+    "year": 2022,
+    "engineType": "Электрический",
+    "transmission": null,
+    "range": 610
+  },
+  {
+    "id": 1,
+    "image": "/images/black BMW X5.jpg",
+    "brand": "BMW",
+    "model": "X5",
+    "color": "Black",
+    "price": 75999,
+    "year": 2021,
+    "engineType": "Бензиновый",
+    "transmission": "Автоматическая",
+    "range": null
+  },
+  {
+    "id": 2,
+    "image": "/images/white Mercedes GLC.jpg",
+    "brand": "Mercedes",
+    "model": "GLC",
+    "color": "White",
+    "price": 69999,
+    "year": 2020,
+    "engineType": "Дизельный",
+    "transmission": "Ручная",
+    "range": null
+  },
+  {
+    "id": 3,
+    "image": "/images/blue Nissan Leaf.jpg",
+    "brand": "Nissan",
+    "model": "Leaf",
+    "color": "Blue",
+    "price": 34999,
+    "year": 2023,
+    "engineType": "Электрический",
+    "transmission": null,
+    "range": 400
+  },
+  {
+    "id": 4,
+    "image": "/images/silver Ford Focus.jpg",
+    "brand": "Ford",
+    "model": "Focus",
+    "color": "Silver",
+    "price": 27999,
+    "year": 2019,
+    "engineType": "Бензиновый",
+    "transmission": "Роботизированная",
+    "range": null
+  },
+  {
+    "id": 5,
+    "image": "/images/gray Audi A4.jpg",
+    "brand": "Audi",
+    "model": "A4",
+    "color": "Gray",
+    "price": 48999,
+    "year": 2020,
+    "engineType": "Дизельный",
+    "transmission": "Автоматическая",
+    "range": null
+  },
+  {
+    "id": 6,
+    "image": "/images/green Volkswagen ID.4.jpg",
+    "brand": "Volkswagen",
+    "model": "ID.4",
+    "color": "Green",
+    "price": 56999,
+    "year": 2023,
+    "engineType": "Электрический",
+    "transmission": null,
+    "range": 520
+  },
+  {
+    "id": 7,
+    "image": "/images/white Toyota Camry.jpg",
+    "brand": "Toyota",
+    "model": "Camry",
+    "color": "White",
+    "price": 32999,
+    "year": 2021,
+    "engineType": "Бензиновый",
+    "transmission": "Ручная",
+    "range": null
+  },
+  {
+    "id": 8,
+    "image": "/images/blue Chevrolet Bolt EV.jpg",
+    "brand": "Chevrolet",
+    "model": "Bolt EV",
+    "color": "Blue",
+    "price": 39999,
+    "year": 2022,
+    "engineType": "Электрический",
+    "transmission": null,
+    "range": 417
+  },
+  {
+    "id": 9,
+    "image": "/images/black Hyundai Tucson.jpg",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "color": "Black",
+    "price": 31999,
+    "year": 2021,
+    "engineType": "Дизельный",
+    "transmission": "Роботизированная",
+    "range": null
+  }
+]

@@ -1,0 +1,215 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+}
+
+.sort {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cars {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.carsList {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px 0;
+
+  li {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 50%;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid rgb(14, 159, 33);
+      filter: brightness(1.2);
+      background-color: rgba(14, 159, 33, 0.4);
+    }
+  }
+}
+
+.buttonSortUp,
+.buttonSortDown {
+  padding: 8px 30px 8px 6px;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: transparent;
+  border: 1px solid rgb(14, 159, 33);
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  font-family: "GeistVF";
+
+  &:hover {
+    background-color: rgba(14, 159, 33, 0.4);
+  }
+}
+
+.buttonSortUp::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  display: block;
+  right: 6px;
+  background-image: url("/ico/arr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: rotate(180deg);
+}
+.buttonSortDown::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  display: block;
+  top: 50%;
+  right: 6px;
+  transform: translateY(-50%);
+  background-image: url("/ico/arr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.addButton {
+  padding: 8px 6px;
+  text-align: left;
+  background-color: transparent;
+  border: 1px solid rgb(14, 159, 33);
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  font-family: "GeistVF";
+
+  &:hover {
+    background-color: rgba(14, 159, 33, 0.4);
+  }
+}
+
+.imageWrapper {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.miniDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.addButtonCenter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.filter label {
+  font-size: 13px;
+}
+
+.filter select {
+  width: 140px;
+  font-family: "GeistVF";
+  border: 1px solid rgb(14, 159, 33);
+  background-color: transparent;
+  color: #333;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 33.72px;
+}
+
+@media (max-width: 900px) {
+  .carsList li {
+    width: 100%;
+  }
+
+  .wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .wrapper,
+  .filter {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .filter {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .filter select {
+    width: 100%;
+  }
+
+  .sort {
+    width: 100%;
+  }
+
+  .carsList {
+    margin-top: 0;
+  }
+  .carsList li {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageWrapper {
+    width: 100%;
+  }
+
+  .miniDescription {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    p {
+      width: calc(50% - 10px);
+    }
+  }
+}

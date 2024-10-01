@@ -1,0 +1,28 @@
+:root {
+  background: #ffffff;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+:rootdy::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "GeistVF";
+  src: url("../../public/fonts/GeistVF.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+body {
+  color: black;
+  background: white;
+  font-family: "GeistVF", sans-serif;
+}
